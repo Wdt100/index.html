@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--Title-->
+        <title>Basic HTML Template</title>
+         <!--Meta tag for display-->
+         <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+          <!--Meta tag for character set-->
+          <meta charset="UTF-8">
+    </head>
+    <body>
+         <!--header-->
+         <header>
+            <h1>Welcome to the basic html Template</h1>
+         </header>
+         <!--heading-->
+         <h2>Basic registration form</h2>
+         <!--paragraph-->
+         <p>please fill in your information to register:</p>
+         <!--basic registration form-->
+         <form action="/submit" method="POST">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name"name="name"><br><br>
+
+            <label for="phone">phone number:</label><br>
+            <input type="tel" id="phone"name="phone"><br><br>
+
+            <input type="submit" value="Register">
+        </form>
+        <!--sample image-->
+        <h2>Sample Image</h2>
+        <img src="NDA.PNG" alt="a very nice image" width="400">
+            <!--table displaying common user information-->
+            <h2>User information</h2>
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>email</th>
+                    <th>phone number</th>
+                </tr>
+                <tr>
+                    <th>william tarimo</th>  
+                    <th>williamtarimo0618@gmail.com</th>
+                    <th>0689135677</th>
+                </tr>
+                <tr>
+                    <th>pona kunahisii</th>  
+                    <th>tpds0618@gmail.com</th>
+                    <th>0618923477</th>
+                </tr>
+            </table>
+             <!--external link-->
+             <p> Visit <a href="https://google.com" target="blank">Google</a> for more information </p>
+         
+    </body>
+</html>
